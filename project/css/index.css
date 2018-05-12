@@ -1,0 +1,30 @@
+body {
+  background: #fff; }
+
+.footend {
+  width: 1000px;
+  margin: 20px auto 30px;
+  overflow: hidden; }
+  .footend .footend-left {
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin-left: 90px; }
+  .footend .footend-right {
+    float: left;
+    color: #333;
+    display: inline;
+    margin-left: 18px;
+    line-height: 20px; }
+    .footend .footend-right a {
+      margin-right: 10px;
+      color: #333;
+      font-size: 12px; }
+    .footend .footend-right a:hover {
+      color: #e60000;
+      text-decoration: underline; }
+  .footend .footend-right.cartfoot a:hover {
+    color: #ff6405;
+    text-decoration: underline; }
+
+/*# sourceMappingURL=index.css.map */

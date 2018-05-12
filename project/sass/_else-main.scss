@@ -1,0 +1,182 @@
+
+$inputwidth:303px;
+$inputwidth-yanzhen:160px;
+.smallmain{
+    margin-top: 20px;
+    .elsepublic{
+        background: #fff;
+        padding: 60px 50px 210px;
+        .smallmain-top{
+        padding-right: 23px;
+        width: 187px;
+        overflow: hidden;
+        height: 24px;
+        line-height: 24px;
+        }
+        .smallmain-top-register{
+            height: 24px;
+            line-height: 24px; 
+            overflow: hidden;
+            span{
+                margin-left: 11px;
+                color: #e60000;
+            }
+            div{
+                color: #c1c1c1;
+            }
+            a{
+                color: #999;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        b{
+            line-height: 24px; 
+            color: #333;
+            height: 24px;
+            font-size: 22px;
+            padding-left: 13px;
+            border-left: 3px solid #e60000;
+        }
+        
+    }
+    .smallmain-middle{
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    .input-box.yzm .input-right{
+        width: $inputwidth-yanzhen;
+    }
+    .registerbox .input-box .input-left{
+        width: 154px;
+    } 
+    .input-box{
+        padding-bottom: 30px;
+        overflow: hidden;
+        position: relative;
+        .input-left{
+            height: 42px;
+            padding-right: 23px;
+            line-height: 42px;
+            width: 187px;
+            text-align: right;
+            font-size: 16px;
+            color: #333;
+        }
+        .input-right.phoneyz{
+            position: relative;
+            input[type="text"]{
+                width: 167px;
+            }
+            .phonebtn{
+                position: absolute;
+                right: 0;
+                top: 0;
+                height: 40px;
+                width: 120px;
+                text-align: center;
+                line-height: 40px;
+                color: #e60000;
+                cursor: pointer;
+                background: url(../images/sendtimeline.png) no-repeat left center;
+            }
+        }
+        .input-right{
+            border-radius: 4px;
+            overflow: hidden;
+            height: 40px;
+            border: 1px solid #dcdcdc;
+            width: $inputwidth;
+            padding-right: 35px;
+            
+            input[type="text"]{
+                color: #666;
+                display: block;
+                width: 100%;
+                height: 20px;
+                line-height: 20px;
+                vertical-align: middle;
+                text-indent: 10px;
+                padding: 10px 0;
+            }
+        }
+        .yanzhen{
+            width: 86px;
+            height: 40px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .exclick{
+            height: 40px;
+            line-height: 40px;
+            span{
+                color: #1c51a1;
+                margin-left: 10px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            span:hover{
+                text-decoration: underline;
+            }
+        } 
+         
+    }
+    
+    .btn{
+        margin: 23px 0 0 210px;
+        input{
+            height: 50px;
+            line-height: 50px;
+            border-radius: 5px;
+            width: 380px;
+            background: #e60000;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: 3px;
+            padding: 0;
+        }
+    }
+    .btn-two{
+        margin: 25px 0 0 210px;
+        width: 380px;
+        overflow: hidden;
+        line-height: 24px;
+        a{
+            color: #666a6b;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    .btn-three{
+        margin: 28px 0 0 155px;
+        overflow: hidden;
+        
+        a{
+            float: left;
+            padding-left: 40px;
+            margin-right: 40px;
+            height: 30px;
+            line-height: 30px;
+            color: #666666;
+            position: relative;
+            display: block;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        span{
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 30px;
+            width: 30px;
+            background: url(../images/registloginSprit.png) no-repeat 0 -20px;;
+        }
+        a:nth-of-type(2) span{
+            background-position: -32px -20px;
+        }
+    }
+}

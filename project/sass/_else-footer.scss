@@ -1,0 +1,96 @@
+.footnav{
+    padding-top: 46px;
+    ul{
+        overflow: hidden;
+        width: 480px;
+        margin: auto;
+        li{
+            background: url(../images/loginRegistfootline.jpg) no-repeat right;
+            float: left;
+            height: 20px;
+            line-height: 20px;
+            width: 120px;
+            text-align: center;
+            a{
+                color: #333333;;
+                font-size: 12px;
+            }
+            a:hover{
+                color: #e60000;
+                text-decoration: underline;
+            }
+        }
+        li:nth-of-type(4){
+            background: none;
+        }
+    }
+}
+.footend{
+    margin: 20px auto 30px;
+    .footend-left{
+        overflow: hidden;
+        float: left;
+        display: inline;
+        margin-left: 90px;
+    }
+    .footend-right{
+        float: left;
+        color: #333;
+        display: inline;
+        margin-left: 18px;
+        line-height: 20px;
+        a{
+            margin-right: 10px;
+            color: #333;
+            font-size: 12px;
+        }
+        a:hover{
+            @include unhover;
+        }
+    }
+    .footend-right.cartfoot a:hover{
+        @include unhover(#ff6405);
+    }
+}
+
+
+.cartfoot-top{
+    border-top: #f0f0f0 2px solid;
+    margin: 10px auto 0 auto;
+    padding: 10px 0 0 0;
+    background: #f9f9f9;
+    dl{
+        line-height: 24px;
+        float: left;
+        a{
+            color: #333;
+        }
+        a:hover{
+            @include unhover(#ff6405)
+        }
+    }
+    dl:nth-of-type(1){
+        width: 230px;
+    }
+    dl:nth-of-type(2){
+        width: 190px;
+    }
+    dl:nth-of-type(3){
+        width: 142px;
+    }
+    dl:nth-of-type(4){
+        width: 192px;
+    }
+    dl:nth-of-type(5){
+        width: 110px;
+    }
+    dl:nth-of-type(6){
+        width: 132px;
+            text-align: right;
+    }
+    dt{
+        font-size: 14px;
+        color: #333;;
+        font-weight: bold;
+    }
+}

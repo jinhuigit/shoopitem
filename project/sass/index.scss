@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+$wrapper-width:1000px;
+$fonts:SimHei;
+$fontbodyone:Arial,Verdana,"宋体";
+$fontbodytwo: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
+$fontsizesmall:12px;
+$fontsizenormal:14px;
+@mixin unhover($color:#e60000){
+    color: $color;
+    text-decoration: underline;
+}
+
+body{
+    background: #fff;
+}
+
+
+
+
+
+
+
+@import "index-header";
+@import "index-footer";
+

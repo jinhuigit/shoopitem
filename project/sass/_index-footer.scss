@@ -1,0 +1,31 @@
+
+
+.footend{
+    width: 1000px;
+    margin: 20px auto 30px;
+    overflow: hidden;
+    .footend-left{
+        overflow: hidden;
+        float: left;
+        display: inline;
+        margin-left: 90px;
+    }
+    .footend-right{
+        float: left;
+        color: #333;
+        display: inline;
+        margin-left: 18px;
+        line-height: 20px;
+        a{
+            margin-right: 10px;
+            color: #333;
+            font-size: 12px;
+        }
+        a:hover{
+            @include unhover;
+        }
+    }
+    .footend-right.cartfoot a:hover{
+        @include unhover(#ff6405);
+    }
+}

@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-$wrapper-width:1000px;
+$bigwrapper-width:1200px;
 $fonts:SimHei;
 $fontbodyone:Arial,Verdana,"宋体";
 $fontbodytwo: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
@@ -10,12 +10,23 @@ $fontsizenormal:14px;
     color: $color;
     text-decoration: underline;
 }
-
+@mixin seticon($x:0px,$y:0px,$w:7px,$h:7px){
+    background: url(../images/homeindex.png) no-repeat;
+    background-position: $x $y;
+    width: $w;
+    height: $h;
+}
 body{
     background: #fff;
+    font-family: "宋体";
+    font-size: $fontsizesmall;
 }
 
-
+.bigwrapper{
+    width: $bigwrapper-width;
+    margin: auto;
+    overflow: hidden;
+}
 
 
 

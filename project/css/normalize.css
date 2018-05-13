@@ -364,7 +364,7 @@ p{
 i{
 	font-style: normal;
 }
-dl,dt,dd{
+dl,dt,dd,ul,li{
 	margin: 0;
 	padding: 0;
 }

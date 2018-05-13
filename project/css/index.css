@@ -1,30 +1,229 @@
+@charset "UTF-8";
 body {
-  background: #fff; }
+  background: #fff;
+  font-family: "宋体";
+  font-size: 12px;
+}
+
+.bigwrapper {
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.index-header-top {
+  background: #f2f2f2;
+}
+
+.indexheaderl {
+  overflow: hidden;
+  line-height: 30px;
+}
+.indexheaderl b {
+  font-weight: normal;
+  color: #666666;
+  float: left;
+  display: block;
+}
+.indexheaderl a {
+  color: #e60000;
+}
+.indexheaderl a:hover {
+  text-decoration: underline;
+}
+.indexheaderl b + a {
+  margin-left: 7px;
+}
+.indexheaderl span {
+  color: #d1d1d1;
+  margin: 0 7px;
+}
+
+.indexheaderr {
+  line-height: 30px;
+}
+.indexheaderr ul {
+  overflow: hidden;
+}
+.indexheaderr li {
+  float: left;
+  padding: 0 16px;
+  height: 29px;
+  border: 1px solid #f2f2f2;
+}
+.indexheaderr .h-nav {
+  padding: 0 26px 0 14px;
+  position: relative;
+}
+.indexheaderr a {
+  color: #666666;
+}
+.indexheaderr a:hover {
+  color: #e60000;
+  text-decoration: underline;
+}
+
+.h-icon {
+  position: absolute;
+  background: url(../images/homeindex.png) no-repeat 0 0;
+  width: 8px;
+  height: 4px;
+  left: 68px;
+  top: 12px;
+}
+
+.index-header .logo {
+  float: left;
+  width: 199px;
+  padding: 21px 0 25px 0;
+  margin-right: 75px;
+}
+.index-header .search {
+  float: left;
+  margin-top: 20px;
+}
+.index-header .search .search-header {
+  overflow: hidden;
+}
+.index-header .search .search-top {
+  float: left;
+  height: 36px;
+  width: 606px;
+  border: 2px solid #e60000;
+  position: relative;
+  overflow: hidden;
+}
+.index-header .search .search-top .inputwrapper {
+  width: 508px;
+  float: left;
+  padding: 8px 0;
+}
+.index-header .search .search-top input {
+  display: block;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  background: #fff;
+  color: #666;
+  text-indent: 1em;
+}
+.index-header .search .search-top a {
+  float: left;
+  height: 36px;
+  background: #e60000;
+  color: #fff;
+  line-height: 36px;
+  width: 98px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei';
+  letter-spacing: 3px;
+}
+.index-header .search .moresearch {
+  float: left;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.index-header .search .moresearch a {
+  color: #e60000;
+}
+.index-header .search .moresearch a:hover {
+  color: #e60000;
+  text-decoration: underline;
+}
+.index-header .notice {
+  float: right;
+  position: relative;
+  padding: 0 0 0 33px;
+  width: 135px;
+  margin: 25px 25px 0 0;
+}
+.index-header .notice a {
+  height: 20px;
+  line-height: 20px;
+  padding: 10px 0;
+  display: none;
+  font-size: 14px;
+  color: #000;
+}
+.index-header .notice li:nth-last-of-type(1) a {
+  display: block;
+}
+.index-header .notice .icon {
+  background: url(../images/homeindex.png) no-repeat;
+  background-position: 0px -27px;
+  width: 23px;
+  height: 23px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -11px;
+}
+
+.search-select {
+  width: 63px;
+  position: absolute;
+  right: 98px;
+  height: 36px;
+  top: 0;
+  border-left: 1px solid #dbdbdb;
+  padding: 0 9px 0 9px;
+  background: #FFF;
+}
+.search-select dt {
+  height: 36px;
+  line-height: 36px;
+  color: #999;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search-footer {
+  line-height: 28px;
+  overflow: hidden;
+}
+.search-footer a {
+  float: left;
+  color: #999;
+  margin-right: 25px;
+}
+.search-footer a:hover {
+  color: #e60000;
+  text-decoration: underline;
+}
 
 .footend {
   width: 1000px;
   margin: 20px auto 30px;
-  overflow: hidden; }
-  .footend .footend-left {
-    overflow: hidden;
-    float: left;
-    display: inline;
-    margin-left: 90px; }
-  .footend .footend-right {
-    float: left;
-    color: #333;
-    display: inline;
-    margin-left: 18px;
-    line-height: 20px; }
-    .footend .footend-right a {
-      margin-right: 10px;
-      color: #333;
-      font-size: 12px; }
-    .footend .footend-right a:hover {
-      color: #e60000;
-      text-decoration: underline; }
-  .footend .footend-right.cartfoot a:hover {
-    color: #ff6405;
-    text-decoration: underline; }
+  overflow: hidden;
+}
+.footend .footend-left {
+  overflow: hidden;
+  float: left;
+  display: inline;
+  margin-left: 90px;
+}
+.footend .footend-right {
+  float: left;
+  color: #333;
+  display: inline;
+  margin-left: 18px;
+  line-height: 20px;
+}
+.footend .footend-right a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 12px;
+}
+.footend .footend-right a:hover {
+  color: #e60000;
+  text-decoration: underline;
+}
+.footend .footend-right.cartfoot a:hover {
+  color: #ff6405;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=index.css.map */

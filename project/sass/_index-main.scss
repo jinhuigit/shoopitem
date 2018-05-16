@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+%someheader{
+    float: left;
+    height: 55px;
+    width: 210px;
+    line-height: 55px;
+    text-indent: 16px;
+    background: #00b6f0;
+    a{
+        display: block;
+        height: 55px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #fff;
+        font-family: "黑体";
+    }
+}
+
+.box{
+    margin-top: 25px;
+}
+.box-header{
+    margin-bottom: 10px;
+    position: relative;
+    background: #f5f5f5;
+    overflow: hidden;
+    h2{
+        @extend %someheader;
+    }
+    ul{
+        overflow: hidden;
+        float: left;
+        li{
+            float: left;
+            padding: 0 19px;
+            background: url(../images/kindline.jpg) no-repeat right;
+            a{
+                padding: 0 7px;
+                padding-top: 8px;
+                font-size: 15px;
+                color: #333333;
+                text-decoration: none;
+                display: block;
+                line-height: 32px;
+                height: 43px;
+                border-top: 4px solid #f5f5f5;
+            }
+        }
+    }
+}
+.box-main{ 
+    overflow: hidden;
+   .box-left{
+        float: left;
+        width: 960px;
+        overflow: hidden;
+        .box-leftl{
+            float: left;
+            width: 210px;
+        }
+        .box-leftr{
+            float: right;
+            width: 740px;
+        }
+   }
+   .box-right{
+       width: 230px;
+        float: right;
+   }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+@import "main-recommend";
+@import "main-advert";
+@import "main-taoshu";
+@import "main-special";
+@import "main-low-price";
+@import "main-wxskse";

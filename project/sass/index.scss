@@ -6,6 +6,8 @@ $fontbodyone:Arial,Verdana,"宋体";
 $fontbodytwo: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
 $fontsizesmall:12px;
 $fontsizenormal:14px;
+$fontfamilyone:"Microsoft YaHei";
+
 @mixin unhover($color:#e60000){
     color: $color;
     text-decoration: underline;
@@ -15,7 +17,19 @@ $fontsizenormal:14px;
     background-position: $x $y;
     width: $w;
     height: $h;
+    display: block
 }
+@mixin boxposition($left:0px,$top:0px){
+    position: absolute;
+    left: $left;
+    top: $top;
+}
+@mixin boxpositionright($right:0px,$top:0px){
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+
 body{
     background: #fff;
     font-family: "宋体";
@@ -34,4 +48,5 @@ body{
 
 @import "index-header";
 @import "index-footer";
-
+@import "index-banner";
+@import "index-main";

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+$taoshu-border-color:#e6e6e6;
+$taoshu-bg-color:#edf8ff;
+
+.taoshu{
+    margin-top: 15px;
+}
+.taoshu-header{
+    overflow: hidden;
+    background: #e60000 url(../images/taoshutuantitle.png) no-repeat 20px center;
+    position: relative;
+    height: 58px;
+    a{
+        height: 58px;
+        line-height: 58px;
+        color: #ffffff;
+        text-align: right;
+        @include boxposition;
+        width: 1180px;
+        padding-right: 20px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+.taoshu-main{
+    position: relative;
+    height: 300px;
+    width: 1200px;
+    overflow: hidden;
+    margin-top: 14px;
+    ul{
+        overflow: hidden;
+        li{
+            float: left;
+            width: 285px;
+            border: 1px solid $taoshu-border-color;
+            margin-right: 17px;
+            overflow: hidden;
+            background: $taoshu-bg-color;
+            height: 297px;
+        }
+        
+        li:nth-last-of-type(1){
+            margin: 0;
+        }
+        li:nth-last-of-type(5){
+            margin: 0;
+        }
+    }
+    .taoshu-pic{
+        height: 190px;
+        img{
+            width: 100%;
+        }
+    }
+    p{
+        margin-top: 7px;
+        line-height: 22px;
+        height: 66px;
+        overflow: hidden;
+        padding: 0 14px;
+        a{
+            color: #333;
+        }
+        a:hover{
+            color: #e60000;
+        }
+    }
+    
+    .price{
+        margin-top: 3px;
+        padding: 0 14px;
+        overflow: hidden;
+        line-height: 24px;
+        font-family: $fontfamilyone;
+        span{
+            color: #e60000;
+            font-size: 20px;
+        }
+        i{
+            font-size: 14px;
+            color: #e60000;
+        }
+        del{
+            margin-left: 13px;
+            color: #999;
+            line-height: 28px
+        }
+        b{
+            float: right;
+            background: #5bd7ff;
+            color: #fff;
+            line-height: 16px;
+            height: 16px;
+            padding: 0 5px;
+            border-radius: 3px;
+            margin-top: 5px;
+        }
+    }
+    .taoshu-lbtn{
+        @include seticon(-73px,-38px,27px,38px);
+        @include boxposition(2px,85px);
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.2);
+        display: none;
+    }
+    .taoshu-rbtn{
+        @include seticon(-73px,0px,27px,38px);
+        @include boxpositionright(2px,85px);
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.2);
+        display: none;
+    }
+}
+.taoshu-main:hover .taoshu-lbtn{
+    display: block
+}
+.taoshu-main:hover .taoshu-rbtn{
+    display: block
+}

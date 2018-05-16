@@ -1,0 +1,166 @@
+@charset "UTF-8";
+$maxwidth:490px;
+.recommend_wrapper{
+    margin: 10px 0 0 210px;
+    width: 990px;
+    .recommend_left{
+        float: left;
+        width: 730px;
+        background: #eff2fa;
+        padding: 10px;
+        overflow: hidden;
+        height: 490px;
+    }    
+    .recommend_right{
+        float: right;
+        width: 230px;
+        background: #f0f0f0;
+        height: 490px;
+    }
+}
+.tabtop{
+    overflow: hidden;
+    a{
+        cursor: default;
+        float: left;
+        border-top: 3px solid #eff2fa;
+        color: #333333;
+        font-family: "Microsoft YaHei";
+        font-size: 16px;
+        height: 37px;
+        line-height: 30px;
+        padding: 0 25px;
+        text-decoration: none;
+    }
+    .active{
+        border-top: 3px solid #e60000;
+        color: #e60000;
+        background: #fff;
+        font-weight: bold;
+    }
+}
+.tabbottom{
+    background: #fff;
+    height: $maxwidth - 40;
+    .tabtou{
+        padding: 15px 15px 0;
+        height: 174px;
+        border-bottom: 1px solid #eef1f9;
+        overflow: hidden;
+        .tabtoupic{
+            float: left;
+            height: 160px;
+            width: 189px;
+            text-align: center;
+            a{
+                display: block;
+            }
+            img{
+                max-height: 160px;
+                border: 0;
+            }
+        }
+        .tabtoutext{
+            float: left;
+            width: 495px;
+            h2{
+                margin-top: 10px;
+                line-height: 30px;
+                a{
+                    font-size: 16px;
+                    color: #000;
+                    font-family: "Microsoft YaHei";
+                }
+            }
+            
+        }
+        .bookprice{
+            overflow: hidden;
+            line-height: 30px;
+            color: #e60000;
+            font-size: 18px;
+            font-family: "Microsoft YaHei";
+            del{
+                color: #999999;
+                margin-left: 11px;
+            }
+        }
+        .bookcont{
+            color: #666666;
+            line-height: 24px;
+            text-indent: 2em;
+            margin-top: 1px;
+        }
+    }
+    .tabcont{
+        padding: 0 1px;
+        margin-top: 10px;
+        ul{
+            overflow: hidden;
+            li{
+                float: left;
+                width: 182px;
+                overflow: hidden;
+                position: relative;
+            }
+        }
+        .img{
+            height:158px;
+            text-align: center;
+            margin-top: 7px;
+            img{
+                height: 158px;
+            }
+        }
+        .name{
+            padding: 10px 15px 0;
+            line-height: 18px;
+            height: 36px;
+            overflow: hidden;
+            a{
+                color: #333;
+            }
+        }
+        .priceWrap{
+            overflow: hidden;
+            padding: 4px 15px 15px 15px;
+            line-height: 20px;
+            color: #e60000;
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            del{
+                color: #999999;
+                font-size: 12px;
+                margin-left: 10px;
+            }
+            .icon{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}
+.tabli{
+    display: none;
+}
+
+
+//right
+.rtop{
+    line-height: 32px;
+    height: 32px;
+    overflow: hidden;
+    background: #fff;
+    h2{
+        float: left;
+        font-size: 16px;
+        color: #e60000;
+        font-family: "Microsoft YaHei";
+        font-weight: normal;
+    }
+    a{
+        float: right;
+        color: #999
+    }
+}

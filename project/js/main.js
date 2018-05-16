@@ -1,0 +1,17 @@
+require(['header'],function(h){
+	h.autotop();
+	h.search();
+	h.aselect();
+});
+require(['banner'],function(b){
+	b.setbanner();
+});
+require(['content'],function(c){
+	c.setreco();
+	c.settaoshu();
+	c.setspecial()
+	c.box()
+});
+require(['xiaoguo'],function(b){
+	b.lunbo();
+});

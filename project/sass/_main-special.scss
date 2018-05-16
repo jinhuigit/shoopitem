@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.special{
+    margin-top: 10px;
+}
+.special-wrapper{
+    line-height: 52px;
+}
+.special-header{
+    font-family: 'Microsoft YaHei';
+    overflow: hidden;
+    h2{
+        float: left;
+        font-size: 22px;
+        margin-right: 3px;
+        a{
+            color: #e60000;
+        }
+    }
+    b{
+        font-size: 14px;
+        font-family: 'Microsoft YaHei';
+        float: right;
+        height: 52px;
+        line-height: 52px;
+        color: #333;
+        cursor: pointer;
+        position: relative;
+        padding-left: 20px;
+        font-weight: normal;
+        .icon{
+            height: 13px;
+            width: 14px;
+            background: url(../images/childredSprit.png) no-repeat -57px -425px;
+            @include boxposition(0,20px)
+        }
+    }
+    b:hover{
+        color: #e60000;
+        
+    }
+    b:hover .icon{
+        background-position:  -57px -445px;
+    }
+}
+.special-header>a{
+    float: left;
+    color: #666;
+    line-height: 60px;
+    margin-left: 17px;
+    display: inline;
+    padding-right: 13px;
+    position: relative;
+    .icon{
+        @include seticon($x:-21px,$y:-63px,$w:8px,$h:10px);
+        @include boxpositionright(0,25px)
+    }
+}
+.special-header>a:hover{
+    color: #e60000;
+}
+.special-header>a:hover .icon{
+    background-position: -22px -72px;
+}
+
+.special-main{
+    position: relative;
+    overflow: hidden;
+    height: 209px;
+    ul{
+        display: none;
+        overflow: hidden;
+        li{
+            float: left;
+            height: 206px;
+            width: 239px;
+            border: 1px solid #e6e6e6;
+            border-right: 0;
+            border-top-width: 2px;
+            position: relative;
+            font-family: "Microsoft YaHei";
+        }
+        li:last-child{
+            width: 238px;
+            border-right: 1px solid #e6e6e6;
+        }
+        li:hover{
+            border-top-color: #e60000;
+        }
+    }
+}
+.bookwrap{
+    height: 198px;
+    padding: 8px 14px 0;
+    a{
+        display: block;
+        height: 24px;
+        overflow: hidden;
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        line-height: 24px;
+        
+    }
+    p{
+        color: #666;
+        line-height: 22px;
+    }
+    div{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    span{
+        color: #e60000;
+    }
+    del{
+        display: block;
+        color: #999;
+    }
+}
+.bookpic{
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    text-align: center;
+    padding: 0 0 5px;
+    width: 145px;
+    height: 145px;
+    transition: transform .4s ease-out,-webkit-transform .4s ease-out,-moz-transform .4s ease-out;
+    outline: 0;
+    img{
+        max-height: 145px;
+        border: none;
+        max-width: 145px;
+    }
+}
+.bookpic:hover{
+    transform: translateX(-10px);
+}

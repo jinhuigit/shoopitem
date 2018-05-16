@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.advert{
+    margin-top: 20px;
+}
+.advert-wrapper{
+    overflow: hidden;
+    a{
+        float: left;
+        margin-left: 10px;
+        display: block;
+    }
+    a:nth-last-of-type(3) {
+         margin-left: 0;
+    }
+}

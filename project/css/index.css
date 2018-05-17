@@ -347,6 +347,15 @@ body {
       color: #e60000;
       font-weight: bold; }
 
+.show {
+  display: none;
+  line-height: 30px; }
+  .show b {
+    font-weight: normal;
+    color: #666666;
+    float: left;
+    display: block; }
+
 .footend {
   width: 1000px;
   margin: 20px auto 30px;

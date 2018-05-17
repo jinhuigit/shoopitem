@@ -391,4 +391,13 @@ $search-input-width:508px;
         }
     }
 }
-
+.show{
+    display: none;
+    line-height: 30px;
+    b{
+        font-weight: normal;
+        color: #666666;
+        float: left;
+        display: block;
+    }
+}

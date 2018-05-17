@@ -33,13 +33,16 @@
 						<b class="right">用户登录</b>
 					</div>
 					<div class="smallmain-middle">
-						<form action="" method="post">
+						<form action="php/dengr.php" method="post">
 							<div class="input-box">
 								<div class="input-left left">
 									用户名：
 								</div>
 								<div class="input-right left">
-									<input type="text" placeholder="用户名/邮箱/已验证手机"/>
+									<input type="text" placeholder="用户名/邮箱/已验证手机" name="phone"/>
+								</div>
+								<div class="megTip logint">
+									<span>请输入常用手机号</span>
 								</div>
 							</div>
 							<div class="input-box">
@@ -47,7 +50,10 @@
 									密码：
 								</div>
 								<div class="input-right left">
-									<input type="text" placeholder="密码"/>
+									<input type="text" placeholder="密码" name="pass"/>
+								</div>
+								<div class="megTip logint">
+									<span>请输入常用手机号</span>
 								</div>
 							</div>
 							<div class="input-box">
@@ -63,13 +69,16 @@
 								<div class="left exclick">
 									<span>换一换</span>
 								</div>
+								<div class="megTip logint">
+									<span>请输入常用手机号</span>
+								</div>
 							</div>
 							<div class="btn">
-								<input type="submit" value="登录"/>
+								<input type="submit" value="登录" name="submit"/>
 							</div>
 							<div class="btn-two">
 								<a href="http://www.bookschina.com/RegUser/forgetpwd.aspx" target="_blank" class="left">忘记密码？</a>
-								<a href="#" target="_blank" class="right">新用户注册&gt;&gt;</a>
+								<a href="register.html" target="_blank" class="right">新用户注册&gt;&gt;</a>
 							</div>
 							<div class="btn-three">
 								<a href="http://qq.bookschina.com/weibo/weibologin.aspx?url=http://www.bookschina.com/RegUser/weibologin.aspx?u=" ><span></span>新浪微博账号登录</a>
@@ -104,5 +113,7 @@
             	</div>
 			</div>
 		</footer>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

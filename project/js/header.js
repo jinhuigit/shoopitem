@@ -27,14 +27,17 @@ define(['jquery'],function(){
 				$.post("php/search.php",{searchv:$('#sos').val()},function(data){
 					var arr=$.parseJSON(data);
 					$.each(arr,function(i,n){
-						var newdivwrapper=$('<div class="divwrapper">')
-						var newdivr=$('<div class="right">');
-						var newdivl=$('<div class="left">');
-						newdivl.html(n.label);
-						newdivr.html('约'+'<span>'+n.amount+'</span>'+'种图书');
-						newdivwrapper.append(newdivl);
-						newdivwrapper.append(newdivr);
-						searchbox.append(newdivwrapper)
+						if(i<=9){
+							var newdivwrapper=$('<div class="divwrapper">')
+							var newdivr=$('<div class="right">');
+							var newdivl=$('<div class="left">');
+							newdivl.html(n.label);
+							newdivr.html('约'+'<span>'+n.amount+'</span>'+'种图书');
+							newdivwrapper.append(newdivl);
+							newdivwrapper.append(newdivr);
+							searchbox.append(newdivwrapper)
+						}
+						
 					})
 					
 				})

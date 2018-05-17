@@ -191,7 +191,10 @@
       width: 86px;
       height: 40px;
       margin-left: 10px;
-      cursor: pointer; }
+      cursor: pointer;
+      line-height: 40px;
+      color: #e60000;
+      font-size: 20px; }
     .smallmain .input-box .exclick {
       height: 40px;
       line-height: 40px; }
@@ -260,6 +263,10 @@
 .megTip.red {
   color: #e60000; }
 
+.megTip.logint {
+  left: 213px;
+  color: #666; }
+
 .sucessWrap {
   float: left;
   height: 17px;
@@ -267,6 +274,9 @@
   background: url("../images/sucessTip.png") no-repeat center;
   margin: 13px 0 0 20px;
   display: none; }
+
+.btn input {
+  cursor: pointer; }
 
 .footnav {
   padding-top: 46px; }

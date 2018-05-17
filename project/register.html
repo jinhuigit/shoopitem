@@ -32,17 +32,17 @@
 						<b>新用户注册</b>
 						<span>注册即送19减5优惠券，首单成功后再返一张49减10优惠券</span>
 						<div class="right">
-							<i>已有账号？</i><a href="#">请登录</a>
+							<i>已有账号？</i><a href="login.html">请登录</a>
 						</div>
 					</div>
 					<div class="smallmain-middle">
-						<form action="" method="post" class="registerbox">
+						<form action="php/yonghu.php" method="post" class="registerbox">
 							<div class="input-box">
 								<div class="input-left left">
 									手机号码：
 								</div>
 								<div class="input-right left">
-									<input type="text" placeholder="请输入常用手机号"/>
+									<input type="text" placeholder="请输入常用手机号" name="phone"/>
 								</div>
 								<div class="sucessWrap"></div>
 								<div class="megTip">
@@ -54,7 +54,7 @@
 									设置密码：
 								</div>
 								<div class="input-right left">
-									<input type="password" placeholder="请输入密码"/>
+									<input type="password" placeholder="请输入密码" name="pass"/>
 								</div>
 								<div class="sucessWrap"></div>
 								<div class="megTip">
@@ -107,7 +107,7 @@
 								</div>
 							</div>
 							<div class="btn">
-								<input type="submit" value="立即注册"/>
+								<input type="submit" value="立即注册"  name="submit"/>
 							</div>
 							
 						</form>

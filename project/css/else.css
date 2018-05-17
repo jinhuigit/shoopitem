@@ -160,6 +160,8 @@
         color: #e60000;
         cursor: pointer;
         background: url(../images/sendtimeline.png) no-repeat left center; }
+    .smallmain .input-box .input-right.redborder {
+      border: 1px solid #e60000; }
     .smallmain .input-box .input-right {
       border-radius: 4px;
       overflow: hidden;
@@ -168,6 +170,15 @@
       width: 303px;
       padding-right: 35px; }
       .smallmain .input-box .input-right input[type="text"] {
+        color: #666;
+        display: block;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        vertical-align: middle;
+        text-indent: 10px;
+        padding: 10px 0; }
+      .smallmain .input-box .input-right input[type="password"] {
         color: #666;
         display: block;
         width: 100%;
@@ -186,7 +197,7 @@
       line-height: 40px; }
       .smallmain .input-box .exclick span {
         color: #1c51a1;
-        margin-left: 10px;
+        margin-left: 5px;
         font-size: 14px;
         cursor: pointer; }
       .smallmain .input-box .exclick span:hover {
@@ -236,6 +247,26 @@
       background: url(../images/registloginSprit.png) no-repeat 0 -20px; }
     .smallmain .btn-three a:nth-of-type(2) span {
       background-position: -32px -20px; }
+
+.megTip {
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 177px;
+  font-size: 12px;
+  display: none; }
+
+.megTip.red {
+  color: #e60000; }
+
+.sucessWrap {
+  float: left;
+  height: 17px;
+  width: 17px;
+  background: url("../images/sucessTip.png") no-repeat center;
+  margin: 13px 0 0 20px;
+  display: none; }
 
 .footnav {
   padding-top: 46px; }

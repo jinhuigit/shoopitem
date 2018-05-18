@@ -21,7 +21,8 @@ function delCookie(key,value){
 $(function(){
 	if(getCookie('UserName')){
 		$('.indexheaderl').hide();
-		$('.show').show().find('.aa').html('你好,'+getCookie('UserName'));
+		$('.cartheaderl').hide();
+		$('.show').show().find('span').html('你好,'+getCookie('UserName'));
 	}
 	$('.show a').on('click',function(){
 		delCookie('UserName','',-1);

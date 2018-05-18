@@ -355,6 +355,8 @@ body {
     color: #666666;
     float: left;
     display: block; }
+  .show a {
+    color: #666; }
 
 .footend {
   width: 1000px;

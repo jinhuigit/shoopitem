@@ -5,6 +5,8 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/else.css"/>
+		
 	</head>
 	<body>
 		<!--详情页-->
@@ -18,14 +20,14 @@
 		                <a href="register.html" target="_self">注册</a>
 		            </div>
 		            <div class="left show">
-		                <b>欢迎光临中国图书网&nbsp;请</b>
+		                <b>欢迎光临中国图书网&nbsp;</b>
 		                <span class="aa"></span>
 						<a href="javascript:;">退出</a>
 		            </div>
 		            <div class="right indexheaderr">
 		            	<ul>
 		            		<li>
-		            			<a href="#" target="_blank">购物车</a>
+		            			<a href="cart.html" target="_blank">购物车</a>
 		            		</li>
 		            		<li>
 		            			<a href="#" target="_blank">我的订单</a>
@@ -178,41 +180,80 @@
 					</div>
 					<ul class="nav">
 	                    <li class="active"><a href="#" target="_parent">首页</a></li>
-	                    <li><a href="#" target="_blank">淘书团</a></li>
-	                    <li><a href="#" target="_blank">畅销榜</a></li>
-	                    <li><a href="#" target="_blank">新上架</a></li>
-	                    <li><a href="#" target="_blank">9块9包邮</a></li>
-	                    <li><a href="#" target="_blank">出版社浏览</a></li>
-	                    <li><a href="#" target="_blank">闲情雅趣</a></li>
-	                    <li><a href="#" target="_blank">批发</a></li>
+	                    <li><a href="javascript:;" target="_blank">淘书团</a></li>
+	                    <li><a href="javascript:;" target="_blank">畅销榜</a></li>
+	                    <li><a href="javascript:;" target="_blank">新上架</a></li>
+	                    <li><a href="javascript:;" target="_blank">9块9包邮</a></li>
+	                    <li><a href="javascript:;" target="_blank">出版社浏览</a></li>
+	                    <li><a href="javascript:;" target="_blank">闲情雅趣</a></li>
+	                    <li><a href="javascript:;" target="_blank">批发</a></li>
 	                </ul>
 				</div>				
 			</div>
 		</header>
 		<main id="main">
 			<div class="main-header">
-				<div class="crumbsBar">
-                <div class="crumbsNav clearfix">
-                    <div class="crumsItem">
-                        <a href="/">中国图书网</a>
-                    </div>
-                    <i class="">&gt;</i>
-                    <div class="crumsItem">
-                    	<a href="#">文学</a>
-                    </div>
-                	<i class="">&gt;</i>
-                	<div class="crumsItem">
-                		<a href="/kinder/53140000/">外国随笔</a>
-                	</div>
-            		<i class=""></i>
-                    <div class="crumsItem">
-                        <span>高兴死了</span>
-                    </div>
-                </div>
-            </div>
+				<div class="main-headerw bigwrapper">
+	                <div class="main-headerww">
+	                    <div class="main-headerc">
+	                        <a href="javascript:;">中国图书网</a>
+	                    </div>
+	                    <i class="">&gt;</i>
+	                    <div class="main-headerc">
+	                    	<a href="javascript:;">文学</a>
+	                    </div>
+	                	<i class="">&gt;</i>
+	                	<div class="main-headerc">
+	                		<a href="javascript:;">外国随笔</a>
+	                	</div>
+	            		<i class=""></i>
+	                    <div class="main-headerc">
+	                        <span>高兴死了</span>
+	                    </div>
+	                </div>
+	            </div>
 			</div>
-		</main>
-		
+			<div class="main-main clear bigwrapper">
+				<div class="main-left">
+					<div class="leftl">
+						<div class="leftlpicw">
+							<a href="javascript:;">
+								<img src="http://image31.bookschina.com/2018/zuo/4/B7728884.jpg"/>
+							</a>
+						</div>
+					</div>
+					<div class="leftr">
+						<div class="padLeft10">
+                            <h1>高兴死了</h1>                          
+                            <div class="author"><span>作者：</span><a href="/Books/allbook/allauthor.asp?stype=author&amp;sbook=珍妮.罗森" target="_blank">珍妮.罗森</a></div>                           
+                            <div class="publisher"><span>出版社：</span><a href="/publish/5594/" target="_blank">江苏文艺出版社</a><span>出版时间：</span><i>2018-03-01</i></div>
+                            <div class="otherInfor">                               
+                                <span>开本：</span>
+                                <em>32开</em>                               
+                                <span>页数：</span>
+                                <i>400</i>                               
+                            </div>
+                            <div class="sort"><span>本类榜单：</span><a href="/24hour/53000000" target="_blank">文学销量榜</a></div>
+                        </div>
+                        <div class="priceWrap">
+                            <span class="sellPriceTit">中 图 价:</span><span class="sellPrice"><i>¥</i>37.7</span><span class="discount">(6.3折)</span>
+                            <span class="priceTit">定价:</span><del class="price">¥59.9 </del>
+                            
+                            <a href="javascript:;" target="_blank">登录后可看到会员价</a>
+                            
+                        </div>
+                        <div class="oparateButton clearfix">                           
+                            <a href="cart.html"  class="buyButton">加入购物车</a>                                                    
+                        </div>
+					</div>
+				</div>
+				<div class="main-right">
+					<img src="images/11.PNG"/>
+				</div>
+			</div>
+		</main>		
 		<script src="js/require.js" defer async="true" data-main="js/main.js"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cok.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

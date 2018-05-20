@@ -383,7 +383,6 @@ $inputwidth-yanzhen:160px;
 .shoppingTitle{
     border: 1px solid #e4e4e4;
     height: 38px;
-    display: none;
     ul{
         overflow: hidden;
         line-height: 38px;
@@ -422,4 +421,204 @@ $inputwidth-yanzhen:160px;
             width: 78px;
         }
     }
+}
+.shoopmain{
+    border: 1px solid #d0d0d0;
+    margin-top: 20px;
+}
+.shoopbox{
+    background: #fffbf0;
+    padding: 16px 0px;
+    border-bottom: 1px solid #e7e7e7;
+    position: relative;
+    overflow: hidden;
+    .check{
+        float: left;
+        margin: 29px 23px 0px 13px;
+    }
+    .shoopboxpic{
+        background: #fff;
+        border: 1px solid #e4e4e4;
+        height: 86px;
+        width: 86px;
+        box-sizing: border-box;
+        padding: 3px 0;
+        text-align: center;
+        float: left;
+        img{
+            height: 80px;
+        }
+    }
+    .shoopboxname{
+        width: 195px;
+        padding-left: 15px;
+        padding-right: 42px;
+        line-height: 20px;
+        height: 88px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        float: left;
+        a{
+            color: #333;
+            line-height: 88px;
+        }
+        a:hover{
+            text-decoration: underline; 
+        }
+    }
+    .shoopboxprice{
+        float: left;
+        width: 128px;
+        line-height: 88px;
+        color: #666;
+        font-size: 15px; 
+        strong{
+            font-weight: normal;
+        }        
+    }
+    .shoopboxdel{
+        float: left;
+        width: 128px;
+        line-height: 88px;
+        color: #666;
+        font-size: 15px; 
+        strong{
+            font-weight: normal;
+        }        
+    }
+    .shoopbox-jj{
+        float: left;
+        padding-top: 25px;
+        width: 90px;
+        padding-right: 65px;
+        text-align: center;
+        .jjbox{
+            padding-top: 10px;
+            overflow: hidden;
+        }
+        input{
+            float: left;
+            width: 42px;
+            border: 1px solid #d6d6d6;
+            line-height: 20px;
+            border-left: none;
+            border-right: none;
+            text-align: center;
+            height: 20px;
+            vertical-align: middle;
+            color: #333;
+        }        
+        .jl{
+            float: left;
+            height: 22px;
+            width: 21px;
+            line-height: 20px;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #d6d6d6;
+            color: #333;
+        }
+        .jr{
+            float: left;
+            height: 22px;
+            width: 21px;
+            line-height: 20px;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #d6d6d6;
+            color: #333;
+        }
+    }
+    .shoopboxph{
+        float: left;
+        width: 120px;
+        line-height: 88px;
+        color: #666;
+        font-size: 15px; 
+        color: #ff2832;
+        strong{
+            color: #ff2832;
+            font-weight: normal;
+        }        
+    }
+    .delete{
+        float: left;
+        width: 74px;
+        line-height: 88px;
+        color: #666;
+        a{
+            color: #333;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.shoopfoot{
+    margin-top: 20px;
+    background: #e5e5e5;
+    padding: 9px 0px;
+    color: #333;
+    .shoopfootwrap{
+        background: #fff;
+    }
+    .shoopfootl{
+        overflow: hidden;
+        float: left;
+    }
+    .shoopfootl-c{       
+        float: left;
+        input{
+            margin: 23px 23px 0px 13px;
+        }
+    }
+    .shoopfootl-t{
+        padding-left: 19px;
+        float: left;
+        line-height: 60px;
+        a{
+            color: #333;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    .shoopfootr{
+        float: right;
+        overflow: hidden;
+    }
+}
+.shoopfootrl{
+    height: 60px;
+    padding-right: 30px;
+    line-height: 60px;
+    float: left;
+    .jian{
+        font-size: 14px;
+        color: #e31436;
+        padding: 0px 5px;
+    }
+    .yuan{
+        color: #e31436;
+        font-size: 18px; 
+    }
+    b{
+        color: #e31436;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}
+.shoopfootbtn{
+    float: left;
+    a{
+        display: block;
+        color: #fff;
+        background: #ff2832;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        width: 164px;
+        font-size: 22px;
+    }
+    
 }

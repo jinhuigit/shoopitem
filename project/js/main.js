@@ -14,4 +14,6 @@ require(['content'],function(c){
 });
 require(['xiaoguo'],function(b){
 	b.lunbo();
+	b.tabone();
+	b.tabwx()
 });

@@ -1,0 +1,43 @@
+[{
+        "title": "高兴死了",
+        "price": "37.7",
+        "del":"59.9",
+        "img": "http://image31.bookschina.com/2018/zuo/4/z7728884.jpg",
+        "sid": "1"
+
+    }, {
+
+        "title": "环形山",
+        "price": "22.4",
+        "del":"32.0",
+        "img": "http://image12.bookschina.com/2013/20130310/s5753129.jpg",
+        "sid": "2"
+    }, {
+
+        "title": "古代小说分类简史丛书--历史小说简史",
+        "price": "3.3",
+        "del":"8.0",
+        "img": "http://image31.bookschina.com/2009/zuo/s4247284.jpg",
+        "sid": "3"
+    }, {
+
+        "title": "吾家小史",
+        "price": "19.5",
+        "del":"39.8",
+        "img": "http://image31.bookschina.com/2013/zuo/s6301132.jpg",
+        "sid": "4"
+ },{
+
+        "title": "蓝鲸的眼睛",
+        "price": "6.8",
+        "del":"15.0",
+        "img": "http://image12.bookschina.com/2012/20120216/s5387751.jpg",
+        "sid": "5"
+ },{
+
+        "title": "我们悲惨的宇宙",
+        "price": "9.9",
+        "del":"36.0",
+        "img": "http://image12.bookschina.com/2013/20130309/s5774948.jpg",
+        "sid": "6"
+ }]
